@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/customer_navbar"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/all_centers"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="All Vaccine Centers" />
+
+
+    <item
+        android:id="@+id/apply_centers"
+        android:icon="@drawable/ic_baseline_add_business_24"
+        android:title="Apply Vaccine" />
+
+    <item
+        android:id="@+id/all_apply_vaccine"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="All Apply Vaccine" />
+
+
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings" />
+
+    <item android:title="Covid Updates">
+        <menu>
+            <item
+                android:id="@+id/corona_updates"
+                android:icon="@drawable/ic_baseline_coronavirus_24"
+                android:title="@string/corona_updates" />
+        </menu>
+    </item>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/my_profile"
+                android:icon="@drawable/ic_baseline_account_box_24"
+                android:title="@string/my_account" />
+
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+    <item android:title="Community">
+        <menu>
+            <item
+                android:id="@+id/my_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="@string/share_us" />
+
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="@string/review_rate" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "87340390569",
+    "firebase_url": "https://vaccinox-6b01b-default-rtdb.firebaseio.com",
+    "project_id": "vaccinox-6b01b",
+    "storage_bucket": "vaccinox-6b01b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87340390569:android:75ce9795daf9d2ad91b1b8",
+        "android_client_info": {
+          "package_name": "com.example.vaccinecenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87340390569-7713apb6m9v01ogsvm2ccab81oh8v1el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXt7fXl4R3ALbwUzza2gtWatroSbAxsEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87340390569-7713apb6m9v01ogsvm2ccab81oh8v1el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

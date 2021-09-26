@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/admin_navbar"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/admin_customer_addCenters"
+        android:icon="@drawable/ic_baseline_add_business_24"
+        android:title="@string/add_new_center" />
+
+    <item
+        android:id="@+id/admin_all_centers"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="@string/all_centers" />
+
+    <item
+        android:id="@+id/admin_addSymptom"
+        android:icon="@drawable/ic_baseline_coronavirus_24"
+        android:title="Add Symptoms" />
+
+    <item
+        android:title="All Symptoms"
+        android:id="@+id/admin_allSymptoms"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        />
+
+    <item
+        android:id="@+id/admin_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings" />
+
+    <item android:title="Covid Updates">
+        <menu>
+            <item
+                android:id="@+id/admin_corona_updates"
+                android:icon="@drawable/ic_baseline_coronavirus_24"
+                android:title="@string/corona_updates" />
+        </menu>
+    </item>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/admin_my_profile"
+                android:icon="@drawable/ic_baseline_account_box_24"
+                android:title="@string/my_account" />
+
+            <item
+                android:id="@+id/admin_log_out"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+    <item android:title="Community">
+        <menu>
+            <item
+                android:id="@+id/admin_my_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="@string/share_us" />
+
+            <item
+                android:id="@+id/admin_rate_us"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="@string/review_rate" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/symp_cardImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="0dp" />
+
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/symp_cardImage"
+            android:text="@string/inputView_symptom_name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_light"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_id"
+            android:text="@string/inputView_symptom_name"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/symp_cardImage"
+            android:layout_below="@+id/card_title"
+            android:fontFamily="@font/poppins_light"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_info"
+            android:text="@string/inputView_symptom_name"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/symp_cardImage"
+            android:layout_below="@+id/card_id"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppins_light"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_below="@+id/card_info"
+            android:layout_marginBottom="5dp"
+            >
+
+            <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                android:id="@+id/symp_editBtn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:text="@string/editBtn"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/purple_500"
+                android:fontFamily="@font/poppins_light"
+                android:textColor="@color/white"
+                />
+
+            <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                android:id="@+id/symp_deleteBtn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:text="@string/deleteBtn"
+                android:backgroundTint="@color/purple_500"
+                android:fontFamily="@font/poppins_light"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
